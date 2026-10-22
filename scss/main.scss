@@ -1,0 +1,21 @@
+// 1. Utilidades
+@use "utilities/variables";
+@use "utilities/mixins";
+// 2. Base
+@use "base/base";
+@use "base/tipografia";
+// 3. Componentes
+@use "components/tarjetas";
+@use "components/buttons";
+
+@media (min-width: 768px) {
+  .titulo-principal {
+    font-size: 2.5rem;
+  }
+}
+// Desktop
+@media (min-width: 1024px) {
+  .titulo-principal {
+    font-size: 3rem;
+  }
+}

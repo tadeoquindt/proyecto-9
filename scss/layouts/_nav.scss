@@ -1,0 +1,21 @@
+
+.navbar {
+  .navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    img {
+      transition: transform 0.3s ease;
+      &:hover {
+        transform: scale(1.1) rotate(-3deg);
+      }
+    }
+  }
+  .nav-link {
+    font-weight: 500;
+    transition: color 0.2s ease;
+    &.active,
+    &:hover {
+      color: #ffc107 !important; // Amarillo para destacar el enlace activo o al pasar el cursor
+    }
+  }
+}

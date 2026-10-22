@@ -1,0 +1,13 @@
+footer {
+  p {
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+  }
+  .list-inline-item a {
+    transition: opacity 0.3s ease;
+    &:hover {
+      opacity: 0.75;
+      text-decoration: underline !important;
+    }
+  }
+}
